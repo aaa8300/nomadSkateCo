@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/Screenshot%202024-11-03%20001508.png?v=1730607609361"
+    />
+    <title>Nomad Skate Co.</title>
+    <!--     custom css -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!--     bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Honk&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--     Friconix CDN Icons -->
+    <script defer src="https://friconix.com/cdn/friconix.js"></script>
+    <!--     custom Javascript -->
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <!--   Navbar -->
+    <nav class="navbar navbar-expand-sm fixed-nav fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/logo1-removebg-preview.png?v=1731968349409"
+            width="50"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul
+            class="navbar-nav"
+            style="
+              background-color: white;
+              padding: 0.5rem;
+              border-radius: 35px;
+              margin: auto;
+            "
+          >
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#store">Store</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#workshop">Services</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contactus.html">Contact Us</a>
+            </li>
+          </ul>
+          <div
+            class="d-flex"
+            style="
+              background-color: black;
+              padding: 0.5rem;
+              border-radius: 35px;
+            "
+          >
+            <li class="Nav-item">
+              <a href="#store"
+                ><button type="button" class="btn btn-outline-secondary">
+                  <i
+                    class="fi-xwsuhl-shopping-cart-solid"
+                    style="color: white"
+                  ></i></button
+              ></a>
+            </li>
+            <li class="Nav-item">
+              <a href="#newsletter"
+                ><button type="button" class="btn btn-outline-danger">
+                  <i
+                    class="fi-xtluxl-user-thin"
+                    style="color: white"
+                  ></i></button
+              ></a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Of Navbar-->
+
+    <!-- header-->
+    <div
+      id="carouselExampleFade"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/photo-1621544402532-78c290378588.png?v=1731364382571"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/SKATEBOARD%20IMAGE%201.jpeg?v=1731968598347"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/fixed.jpg?v=1731969508673"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="header-overlay">
+          <div class="container">
+            <div class="header-content custom-container">
+              <p><span style="color: white">Miami,</span> FL USA</p>
+              <h1 class="h1">SKATEBOARDS WITH A UNIQUE <span>DESIGN</span></h1>
+              <a href="#about"
+                ><button class="btn btn-outline-danger">Explore More</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- end of header-->
+
+    <!--     aboutsection  -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="container about-section d-flex justify-content-center">
+          <div class="row my-5">
+            <div class="col-md-8">
+              <h2 class="h2 audiowide-regular">About Nomad Skate Co.</h2>
+              <p style="text-align: left">
+                Nomad Skate Co. Designs offers unique skateboard designs at
+                affordable prices, along with a range of skate gear, including
+                wheels, trucks, bearings, and protective equipment. We keep you
+                informed about local competitions and invite you to join our
+                workshops. Whether you're a seasoned pro or just starting out,
+                our community welcomes you to elevate your
+                skateboarding experience!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--     end of about section -->
+
+    <!--Section of Services-->
+    <section class="services parallax" id="store" style="height: auto;">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="audiowide-regular" style="color: white">
+            TRENDING SKATE GEAR
+          </h2>
+        </div>
+        <div class="row d-flex justify-content-center" style="width: 100%">
+          <div class="col-md-3">
+            <div class="custom-card">
+              <img
+                src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/skatebaord_3_flat-removebg-preview.png?v=1731968106437"
+                class="card-img-top"
+                alt="..."
+              />
+              <div
+                class="card-body d-flex align-items center"
+                style="width: 100%"
+              >
+                <div class="py-5">
+                  <h5 class="card-title" style="color: white">
+                    Premium Design
+                  </h5>
+                  <p class="card-text text-start py-2" style="color: white">
+                    <span>Category:</span> Abstract
+                  </p>
+                </div>
+                <a
+                  href="#"
+                  class="btn btn-danger ps-2"
+                  style="height: 30px; margin: auto"
+                  >$199</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="custom-card">
+              <img
+                src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/skatebaord_2_flat-removebg-preview.png?v=1731968101404"
+                alt="..."
+              />
+              <div
+                class="card-body d-flex align-items center"
+                style="width: 100%"
+              >
+                <div class="py-5">
+                  <h5 class="card-title" style="color: white">
+                    Raid Wolf Design
+                  </h5>
+                  <p class="card-text text-start py-2" style="color: white">
+                    <span>Category:</span> Animals
+                  </p>
+                </div>
+                <a
+                  href="#"
+                  class="btn btn-danger ps-2"
+                  style="height: 30px; margin: auto"
+                  >$199</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="custom-card">
+              <img
+                src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/skatebaord_4_flat-removebg-preview.png?v=1731968108806"
+                class="card-img-top"
+                alt="..."
+              />
+              <div
+                class="card-body d-flex align-items center"
+                style="width: 100%"
+              >
+                <div class="py-5">
+                  <h5 class="card-title" style="color: white">
+                    Monster Design
+                  </h5>
+                  <p class="card-text text-start py-2" style="color: white">
+                    <span>Category:</span> Abstract
+                  </p>
+                </div>
+                <a
+                  href="#"
+                  class="btn btn-danger ps-2"
+                  style="height: 30px; margin: auto"
+                  >$199</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="custom-card">
+              <img
+                src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/skatebaord_1_flat-removebg-preview.png?v=1731968056727"
+                class="card-img-top"
+                alt="..."
+              />
+              <div
+                class="card-body d-flex align-items center"
+                style="width: 100%"
+              >
+                <div class="py-5">
+                  <h5 class="card-title" style="color: white">
+                    Firey Tires Design
+                  </h5>
+                  <p class="card-text text-start py-2" style="color: white">
+                    <span>Category:</span> Abstract
+                  </p>
+                </div>
+                <a
+                  href="#"
+                  class="btn btn-danger ps-2"
+                  style="height: 30px; margin: auto"
+                  >$199</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end of services-->
+
+    <main>
+      <div class="collage">
+        <div class="photo-block">
+          <div class="photo-grid">
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/900_Stock-Photography_graffiti-wall.jpg?v=1732577558199" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/fixed.jpg?v=1731969508673" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/SKATEBOARD%20IMAGE%201.jpeg?v=1731968598347" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/skateboard_down.jpg_2-removebg-preview.png?v=1731968526080" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/skateboard_down.jpg_3-removebg-preview.png?v=1731968522620" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/900_Stock-Photography_graffiti-wall.jpg?v=1732577558199" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/skatebaord_4_flat-removebg-preview.png?v=1731968108806" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/skatebaord_3_flat-removebg-preview.png?v=1731968106437" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/1120617.jpg?v=1731714620902" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/skatebaord_1_flat-removebg-preview.png?v=1731968056727" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/1141647.jpg?v=1731714619626" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/185492.jpg?v=1731714612246" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/photo-1621544402532-78c290378588.png?v=1731364382571" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/Screenshot%202024-11-03%20001508.png?v=1730607609361" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/DALL%C2%B7E%202024-11-04%2018.33.00%20-%20A%20young%20man%20in%20a%20skateshop%20named%20'Nomad%20Skate%2C'%20wearing%20a%20uniform%20with%20a%20'Nomad%20Skate'%20logo%20on%20his%20polo%20shirt.%20He%20is%20repairing%20a%20skateboard%20with%20a%20foc.webp?v=1730763234444" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/DALL%C2%B7E%202024-11-04%2018.35.03%20-%20A%20grunge-style%2C%20rebellious%20logo%20for%20a%20skate%20brand%20named%20'Nomad%20Skate.'%20The%20logo%20is%20designed%20in%20graffiti%20style%2C%20with%20bold%2C%20edgy%20lettering%2C%20splatters%2C%20a.webp?v=1730763368262" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/4d31507a84c11864701069a423d600e2.jpg?v=1730761820777" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/39a4ee617bae8d7fc38f703f573dd996.jpg?v=1730761811255" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/58d882f5a6ef43c73a178f2e6ec038b3.jpg?v=1730761668454" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/2131745f160d3aaa30b5665d344a80c7.jpg?v=1730761839911" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/4d31507a84c11864701069a423d600e2.jpg?v=1730761820777" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/cdfc43e757ef2e4b0312c49e8d7a1f44.jpg?v=1730761834407" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/Screenshot%202024-11-04%20at%206.14.05%E2%80%AFPM.png?v=1730762098066" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/Screenshot%202024-11-04%20at%206.12.43%E2%80%AFPM.png?v=1730762111168" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/423562.png?v=1731714593739" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/1120617.jpg?v=1731714620902" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/hans-eiskonen-u3_hTZCsQ8w-unsplash.jpg?v=1731969184922" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/skateboard_down-removebg-preview.png?v=1731968529758" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/skateboard%202.jpeg?v=1731968979124" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/ines-alvarez-fdez-S82kPZPS8eM-unsplash.jpg?v=1731969189516" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/fixed2.jpg?v=1731969503634" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/istockphoto-964805424-612x612.jpg?v=1732580628806" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/psychedelic-kaleidoscope-art-i-abstract-ai-867.webp?v=1732577754811" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/0112a7571552eedc214455c61ef86266fa562fef.jpg?v=1732581093744" alt="" />
+            </div>
+            <div class="photo">
+              <img src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/logo.webp?v=1732582171256" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--       info about workshop -->
+    <section class="workshop parallax second" id="workshop" style="height: auto;">
+      <div class="about-card container d-flex justify-content-center">
+        <div class="row my-5">
+          <div class="col-md-8">
+            <h3 class="audiowide-regular">
+              INTERESTED IN PARTICIPATING IN A WORKSHOP?
+            </h3>
+            <p style="text-align: center">
+              Join us for a Custom Skateboard Workshop on October 5th, 2025!
+              This in-person workshop is your chance to design and build your
+              very own unique, artist-designed skateboard, tailored to all skill
+              levels. You’ll get hands-on experience creating a custom board
+              with expert guidance throughout the process. Click the button to
+              learn more and reserve your spot!
+            </p>
+
+            <a
+              href="https://www.canva.com/design/DAGXPoeN82w/AE8aj0N2T85Zw4btetDWag/view"
+            >
+              <button class="btn btn-warning">Learn More</button></a
+            >
+          </div>
+          <div class="col-md-4">
+            <img
+              src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/DALL%C2%B7E%202024-11-04%2018.33.00%20-%20A%20young%20man%20in%20a%20skateshop%20named%20'Nomad%20Skate%2C'%20wearing%20a%20uniform%20with%20a%20'Nomad%20Skate'%20logo%20on%20his%20polo%20shirt.%20He%20is%20repairing%20a%20skateboard%20with%20a%20foc.webp?v=1730763234444"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--     end info about workshop -->
+
+    <!--   fake competitions -->
+    <section class="blog parallax third" id="blog" style="height: auto;">
+      <div class="section-header container">
+        <h2 class="audiowide-regular" style="color: white">
+          COMPETITIONS/COMMUNITY EVENTS
+        </h2>
+      </div>
+      <div
+        class="container d-flex justify-content-center flex-column align-items-center"
+      >
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0" style="width: 100%">
+                <div class="col-md-6">
+                  <img
+                    src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/photo-1621544402532-78c290378588.png?v=1731364382571"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body comp-card" styling="padding:0px">
+                    <h5 class="card-title">WIN A CHANCE AT $500</h5>
+                    <p class="card-text">
+                      [2025 UPDATE] - Show off your best design and compete with
+                      others. Winner recieves $500! Don't miss out!
+                    </p>
+                    <p class="card-text">
+                      <small class="text-body-secondary">18.01.2023</small>
+                      <button class="btn btn-outline-dark">
+                        <a
+                          href="https://www.canva.com/design/DAGXPXGciGY/777O7kGGdH8CaBUPrQcrkA/view"
+                          target="_blank"
+                          rel="noopener"
+                          >Read More</a
+                        >
+                      </button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0" style="width: 100%">
+                <div class="col-md-6">
+                  <img
+                    src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/fixed.jpg?v=1731969508673"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body comp-card" styling="padding:0px">
+                    <h5 class="card-title">Best Skateboarder?</h5>
+                    <p class="card-text">
+                      [2025 UPDATE] - Show off your skills and compete with
+                      other passionate skateboarders!
+                    </p>
+                    <p class="card-text">
+                      <small class="text-body-secondary">18.01.2023</small>
+                      <button class="btn btn-outline-dark">
+                        <a
+                          href="https://www.canva.com/design/DAGXPXGciGY/777O7kGGdH8CaBUPrQcrkA/view"
+                          target="_blank"
+                          rel="noopener"
+                          >Read More</a
+                        >
+                      </button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--     end fake competitions -->
+
+    <!--     newsletter -->
+
+    <section class="newsletter parallax fourth" id="newsletter" style="height: auto;">
+      <div class="container mt-30">
+        <div class="container newsletter-section d-flex justify-content-center">
+          <div class="col-md-4">
+            <img
+              src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/skateboard_down-removebg-preview.png?v=1731968529758"
+              style="margin: auto"
+            />
+          </div>
+          <div class="row my-5">
+            <div class="col-md-8">
+              <h1 class="h2">NEWSLETTER</h1>
+              <p style="text-align: left">
+                Subscribe and get 20% off your first purchase!
+              </p>
+            </div>
+            <div class="d-flex">
+              <input class="rounded w-75 bg-light" />
+              <button class="rounded">Send</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--     end of newsletter -->
+
+    <!--     FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-5">
+          <div class="col mb-3">
+            <a
+              href=""
+              class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
+            >
+              <img
+                src="https://cdn.glitch.global/f5d6888d-b4fa-49ce-b7a9-cea878c045c9/logo1-removebg-previewresized.png?v=1731968407822"
+                class="footer-logo"
+              />
+            </a>
+            <p>© 2024</p>
+          </div>
+
+          <!--           <div class="col mb-3"></div> -->
+
+          <div class="col mb-4">
+            <h5>Nomad Skate Co.</h5>
+            <ul class="nav flex-column">
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0"
+                    >678 Skateboard Ave., Urban Park, USA 90011</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0">(777) 777-7777</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0">support@nomadskateco.com</a>
+                </li>
+              </ul>
+            </ul>
+          </div>
+
+          <div class="col mb-4">
+            <h5>More Information</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#about" class="nav-link p-0">About Us</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#store" class="nav-link p-0">Store</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#workshop" class="nav-link p-0">Services</a>
+              </li>
+
+              <li class="nav-item mb-2">
+                <a href="contactus.html" class="nav-link p-0">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col mb-4">
+            <h5>Social Media</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a
+                  href="https://www.facebook.com/login.php"
+                  class="nav-link p-0"
+                  ><i class="fi-xnsuxl-facebook"></i
+                ></a>
+                <p>Facebook</p>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="https://www.instagram.com/" class="nav-link p-0"
+                  ><i class="fi-xnsuxl-instagram"></i
+                ></a>
+                <p>Instagram</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--     End of Footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

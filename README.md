@@ -21,3 +21,6 @@ The goal was to create a bold, artistic, and responsive site that aligned with t
 ## Challenges and What I Learned  
 A major challenge was implementing parallax scrolling with my little knowledge of web design. I researched techniques, tested multiple approaches, and refined the final effect using layered backgrounds and scroll-based styling.
 I also learned to manage time effectively, solve problems through research, and translate a creative brief into a fully functional product. 
+
+
+## Estimated Time Spent Coding: 10 hours

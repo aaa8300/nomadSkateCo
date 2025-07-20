@@ -1,9 +1,7 @@
 # Nomad Skate Co. Mock Client Website
 
 ## Overview  
-This website was created as part of a web development program through America On Tech. The challenge was to follow a *mock* client brief and redesign the site for *Nomad Skate Co.*, a fictional skateboard brand with a street art-inspired, community-driven identity.  
-
-The goal was to create a bold, artistic, and responsive site that aligned with the brand's vision while demonstrating strong frontend development skills.
+This is a personal practice project where I designed and built a fictional website for a made-up skateboard brand called *Nomad Skate Co.*. I created the site to explore modern web design techniques and improve my frontend development skills. The goal was to build something creative and fully responsive while experimenting with layout, styling, and effects.
 
 ## What I Did  
 - Built all components using **HTML**, **CSS**, and **Bootstrap**
